@@ -1,0 +1,30 @@
+.top-categories {
+  background-color: white;
+  margin: 50px 80px;
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.top-categories h1 {
+  margin-left: 40px;
+  font-size: 60px;
+  margin-top: 50px;
+}
+
+.top-category-fields {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  padding: 30px;
+}
+
+.top-category-fields img {
+  width: 400px;
+}
+
+.top-category-fields h3 {
+  text-align: center;
+  font-size: 25px;
+}

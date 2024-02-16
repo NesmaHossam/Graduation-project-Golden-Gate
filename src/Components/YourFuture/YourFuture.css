@@ -1,0 +1,26 @@
+.your-future {
+  /* display: flex; */
+  /* flex-direction: column; */
+  margin-top: 40px;
+  position: relative;
+}
+
+.your-future-text {
+  margin-left: 90px;
+  max-width: 500px;
+  position: absolute;
+}
+.your-future-text h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.your-future p {
+  font-size: 25px;
+}
+
+.your-future-img {
+  display: flex;
+  justify-content: flex-end;
+}
