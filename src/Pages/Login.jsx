@@ -32,7 +32,7 @@ const Login = () => {
         <h4>Or</h4>
 
         <div>
-          <a href="https://www.gmail.com/login.php/">
+          <a href="https://accounts.google.com/v3/signin/identifier?authuser=0&continue=https%3A%2F%2Fmyaccount.google.com%2F%3Futm_source%3Dsign_in_no_continue%26pli%3D1&ec=GAlAwAE&hl=en&service=accountsettings&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S923061028%3A1708108675629078&theme=glif">
             {" "}
             <img src={google_icon} alt=""/>{" "}
           </a>

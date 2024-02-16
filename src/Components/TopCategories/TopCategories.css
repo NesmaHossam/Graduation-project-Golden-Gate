@@ -9,7 +9,7 @@
 
 .top-categories h1 {
   margin-left: 40px;
-  font-size: 60px;
+  font-size: 50px;
   margin-top: 50px;
 }
 
@@ -26,5 +26,6 @@
 
 .top-category-fields h3 {
   text-align: center;
-  font-size: 25px;
+  font-size: 30px;
+
 }
