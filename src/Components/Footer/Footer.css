@@ -39,6 +39,7 @@ word-spacing: 5px;
 .Links-footer li {
   list-style: none;
   line-height: 1.2;
+  cursor: pointer;
 }
 
 .contact-us img {
