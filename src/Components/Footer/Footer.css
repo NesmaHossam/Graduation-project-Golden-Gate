@@ -11,9 +11,18 @@
 
 .log-icon {
   display: flex;
-  width: 400px;
+  flex-direction: column;
+  width: 300px;
   height: 200px;
   margin: auto;
+}
+
+.log-icon p{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 20px;
+word-spacing: 5px;  
 }
 
 .Links-footer {
@@ -51,9 +60,3 @@
   padding: 10px;
 }
 
-.copy-rights {
-  display: flex;
-  margin-top: auto;
-  font-weight: bold;
-  font-size: 20px;
-}

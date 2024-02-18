@@ -13,6 +13,8 @@ const Footer = () => {
     <div className="footer">
       <div className="log-icon">
         <img src={Logo_Icon} alt="" />
+        <p>&copy; copy rights reserved</p>
+
       </div>
 
       <div className="Links-footer">
@@ -45,11 +47,7 @@ const Footer = () => {
 
         </div>
 
-        <div className="copy-rights">
-           
-            <p>&copy; copy rights reserved</p>
-
-        </div>
+      
       </div>
     </div>
   );
