@@ -1,0 +1,34 @@
+.start-teaching {
+  display: flex;
+justify-content:space-evenly ;  
+margin: 30px;
+align-items: center;
+}
+
+
+
+.start-teaching-texts h1{
+    font-size: 40px;
+}
+.start-teaching-texts p {
+  margin-top: 10px;
+  font-size: 25px;
+  width: 370px;
+}
+
+.start-teaching-texts button {
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  width: 300px;
+  font-size: 20px;
+  background-color: #090c9b;
+  color: white;
+  margin-top: 40px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.start-teaching-img img {
+  height: 70vh;
+}
