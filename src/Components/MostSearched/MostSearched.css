@@ -1,0 +1,84 @@
+.Container {
+    max-width: 1350px;
+    margin: 80px auto; /* Auto margin left and right will center the container horizontally */
+    
+  }
+  
+  .course {
+    margin: 0 10px;
+  }
+  
+  .course img {
+    width: 100%;
+  }
+  
+  .course-body {
+    padding: 10px;
+    background-color: #fff;
+}
+  
+  .slick-dots {
+    margin-bottom: 6px;
+  }
+  
+  .slick-dots li button:before {
+    font-size: 8px;
+    color: #333;
+  }
+  
+
+  
+.bootcamp-link {
+  color: #000000;
+  font-weight: bold;
+}
+
+.bootcamp-link:hover {
+  color: #808080;
+}
+
+
+.mentor_rating_div {
+  display: flex;
+  align-items: center; 
+}
+
+.mentor_rating_div p {
+  color: #808080;
+  margin-right: 20px;
+}
+
+.App h1{
+  font-size: 50px;
+  margin-top: 80px;
+  margin-bottom: 10px;
+  margin-left: 95px;
+}
+
+.App h3{
+color: #8D979D;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 90;
+margin-left: 95px;
+margin-bottom: 10px;
+font-size: 30px;
+
+}
+
+.view-course-link {
+  color: #000000; 
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 10px; 
+  display: block; 
+
+}
+
+.view-course-link::after {
+  content: '⟶'; 
+  margin-right: 5px; 
+  font-size: 15px; 
+  display: inline-block; 
+
+}
