@@ -13,7 +13,12 @@ const MayShowFooter = ({ children }) => {
       setShowFooter(false);
     } else if (location.pathname === "/reset") {
       setShowFooter(false);
-    } else {
+    } else if (location.pathname === "/newpass/:id") {
+      setShowFooter(false);
+    } 
+    else if (location.pathname === "/confirmCode") {
+      setShowFooter(false);
+    }else {
       setShowFooter(true);
     }
   }, [location]);

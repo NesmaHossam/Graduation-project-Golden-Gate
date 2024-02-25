@@ -14,6 +14,10 @@ const MayBeShowNavbar = ({ children }) => {
       setShowNavBar(false);
     } else if (location.pathname === "/reset") {
       setShowNavBar(false);
+    } else if (location.pathname === "/newpass/:id") {
+      setShowNavBar(false);
+    } else if (location.pathname === "/confirmCode") {
+      setShowNavBar(false);
     } else {
       setShowNavBar(true);
     }

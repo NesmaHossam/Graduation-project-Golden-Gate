@@ -14,6 +14,8 @@ const Navbar = () => {
   //   api
   const [menu, setMenu] = useState("home");
 
+
+
   return (
     <div className="navbar">
       <div className="nav-logo">
