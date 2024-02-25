@@ -6,21 +6,44 @@
 }
 
 .your-future-text {
-  margin-left: 90px;
-  max-width: 500px;
   position: absolute;
-}
+ }
+
+ 
 .your-future-text h1 {
   font-size: 50px;
   margin-bottom: 20px;
-  margin-left: 10px;
+  margin-left: 100px;
+  max-width: 500px;
+  
 }
 
 .your-future p {
-  font-size: 25px;
+  
+  font-size: 32px;
+  text-align: justify;
+  font-weight: 400;
+  font-family: 'Inter';
+  font-style: normal;
+  line-height: 40px;
+  max-width: 700px;
+  margin-left: 80px;
+  
+
 }
 
 .your-future-img {
   display: flex;
+  flex-direction: column;
+  align-items: flex-end;
   justify-content: flex-end;
+  min-height: 50vh;
+  padding: 70px;
+  box-sizing: border-box;
+  background-color: white;
+  min-width: 100px;
+ 
 }
+
+
+
