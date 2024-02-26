@@ -6,7 +6,7 @@
   justify-content: space-around; */
   color: white;
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-columns: 1.5fr 1fr 1fr;
 }
 
 .log-icon {
@@ -17,12 +17,12 @@
   margin: auto;
 }
 
-.log-icon p{
+.log-icon p {
   display: flex;
   justify-content: center;
   margin-top: 20px;
   font-size: 20px;
-word-spacing: 5px;  
+  word-spacing: 5px;
 }
 
 .Links-footer {
@@ -60,4 +60,3 @@ word-spacing: 5px;
   font-size: 20px;
   padding: 10px;
 }
-
