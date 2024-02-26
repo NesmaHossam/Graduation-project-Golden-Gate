@@ -1,5 +1,5 @@
 import "./App.css";
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
@@ -15,18 +15,16 @@ import ConfirmationPassword from "./Components/ConfirmationPassword/Confirmation
 import ResetPassword from "./Pages/ResetPassword";
 import ConfirmationCode from "./Components/ConfirmationCode/ConfirmationCode";
 
-
 function App() {
-
   return (
     <div>
       <BrowserRouter>
         <MayBeShowNavbar>
-          <Navbar/>
+          <Navbar />
         </MayBeShowNavbar>
 
         <Routes>
-          <Route path="/" exact element={<Home/>} />
+          <Route path="/" exact element={<Home />} />
           {/* <Route path='/categories' element={<Categories/>} />
         <Route path='/aboutus' element={<Aboutus/>}/>
         <Route path="/cart" element={<Cart/>} /> */}
