@@ -1,6 +1,7 @@
 import React from "react";
 import "./Css/ResetPassword.css";
 import Photo1 from "../Components/Assests/reset.png";
+import { Link, link } from "react-router-dom";
 
 const ResetPassword = () => {
   return (
@@ -13,7 +14,7 @@ const ResetPassword = () => {
             <input type="password" placeholder="Password" />
             <input type="password" placeholder="Confirm Password" />
           </div>
-          <button>Reset Password</button>
+         <Link to="/"><button>Reset Password</button></Link> 
         </div>
 
         <div className="reset-password-right">
