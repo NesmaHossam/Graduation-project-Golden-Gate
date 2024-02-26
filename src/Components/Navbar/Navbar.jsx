@@ -12,9 +12,7 @@ const Navbar = () => {
   const [results, setResults] = useState([]);
 
   //   api
-  const [menu, setMenu] = useState("home");
-
-
+  // const [menu, setMenu] = useState("home");
 
   return (
     <div className="navbar">
@@ -25,38 +23,16 @@ const Navbar = () => {
       </div>
 
       <ul className="nav-menu">
-        <li
-          onClick={() => {
-            setMenu("home");
-          }}
-        >
-          <Link style={{ textDecoration: "none" }} to="/">
-            {" "}
-            Home
-          </Link>
-          {menu === "home" ? <hr /> : <></>}
+        <li>
+          <Link to="/">Home</Link>
         </li>
 
-        <li
-          onClick={() => {
-            setMenu("categories");
-          }}
-        >
-          <Link style={{ textDecoration: "none" }} to="/categories">
-            Categories
-          </Link>
-          {menu === "categories" ? <hr /> : <></>}
+        <li>
+          <Link to="/categories">Categories</Link>
         </li>
 
-        <li
-          onClick={() => {
-            setMenu("aboutus");
-          }}
-        >
-          <Link style={{ textDecoration: "none" }} to="/aboutus">
-            About Us
-          </Link>
-          {menu === "aboutus" ? <hr /> : <></>}
+        <li>
+          <Link to="/aboutus">About Us</Link>
         </li>
       </ul>
 

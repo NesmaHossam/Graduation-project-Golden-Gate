@@ -3,9 +3,11 @@ import "./CourseContent.css"
 
 const CourseContent =() =>{
     return(
-        <div className="course-content">
-
-        </div>
+        <div className="course-content container">
+            
+      
+      
+       </div>
     )
 }
 

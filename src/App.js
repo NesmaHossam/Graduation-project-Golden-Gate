@@ -19,7 +19,7 @@ import CourseContent from "./Components/CourseContent/CourseContent";
 import CourseVideo from "./Components/CourseVideo/CourseVideo";
 import OverView from "./Components/OverView/OverView";
 import Comments from "./Components/Comments/Comments";
-
+import Rooms from "./Components/Rooms/Rooms";
 function App() {
   return (
     <div>
@@ -40,11 +40,11 @@ function App() {
           <Route path="/confirmCode" exact element={<ConfirmationCode />} />
           <Route path="/newpass/:id" exact element={<ResetPassword />} />
           <Route path="/coursePlay" exact element={<CoursePlay />} />
-          <Route path="/courseContent" exact element={<CourseContent/>} />
-          <Route path="/courseVideo" exact element={<CourseVideo/>} />
-          <Route path="/overView" exact element={<OverView/>}/>
-          <Route path="/comments" exact element={<Comments/>} />
-
+          <Route path="/courseContent" exact element={<CourseContent />} />
+          <Route path="/courseVideo" exact element={<CourseVideo />} />
+          <Route path="/overView" exact element={<OverView />} />
+          <Route path="/comments" exact element={<Comments />} />
+          <Route path="/room" exact element={<Rooms />} />
         </Routes>
 
         <MayShowFooter>

@@ -24,11 +24,17 @@
   color: black;
   font-size: 25px;
   font-weight: 600;
+  padding-top: 2.5vh;
+
 }
 
 .nav-menu a {
   color: black;
   text-decoration: none;
+}
+
+.nav-menu a:hover{
+  color: #090c9b;
 }
 
 .search-bar-container {
