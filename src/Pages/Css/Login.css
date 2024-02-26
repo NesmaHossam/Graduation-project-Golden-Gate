@@ -66,8 +66,9 @@ h4 {
   font-size: 20px;
 }
 
-.loginsignup-login span {
+.loginsignup-login span a{
   color: black;
+  text-decoration: none;
   font-weight: bold;
   cursor: pointer;
 }
