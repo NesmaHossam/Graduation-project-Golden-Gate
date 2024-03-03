@@ -10,8 +10,8 @@ import Vector from "../Assests/Vector.png"
 
 const Footer = () => {
   return (
-    <div className="footer">
-      <div className="log-icon">
+    <div className="footer ">
+      <div className="log-icon ">
         <img src={Logo_Icon} alt="" />
         <p>&copy; copy rights reserved</p>
 

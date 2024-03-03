@@ -1,0 +1,35 @@
+.profile-main {
+  background-color: #090c9b;
+  height: 100vh;
+  width: 500px;
+  border-radius: 0px 50px 50px 0px;
+}
+
+.profile-content {
+  display: flex;
+  flex-direction: column;
+
+  color: white;
+}
+
+.profile-content h2{
+  margin-left: 50px;
+/* margin-right: 70px; */
+cursor:default;
+}
+
+.profile-content div {
+  display: flex;
+  /* justify-content: space-around; */
+
+  margin-top: 20px;
+}
+
+.profile-icon {
+  height: 40px;
+  width: 40px;
+  margin-left: 50px;
+}
+
+
+
