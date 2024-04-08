@@ -1,0 +1,32 @@
+.emailAddres-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.emailAddres-container input {
+  width: 700px;
+  padding: 10px;
+  font-size: 25px;
+  border: 2px solid #090c9b;
+  border-radius: 10px;
+  color: black;
+}
+
+
+
+
+
+.emailAddres-container button{
+    width: 300px;
+    margin-top: 30px;
+    font-size: 18px;
+    padding: 10px;
+    color: white;
+    background-color: #090c9b;
+    border: none;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    
+}

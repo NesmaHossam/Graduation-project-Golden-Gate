@@ -1,0 +1,35 @@
+.myCourses-container {
+  width: 800px;
+  border: 2px solid #090c9b;
+  border-radius: 40px;
+  height: 50vh;
+  margin-top: 30px;
+}
+
+.myCourses-container div{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.myCourses-container div img{
+    margin-left: 20px;
+}
+
+.myCourses-container div h2{
+    text-decoration: underline;
+}
+
+.myCourses-container button {
+  background-color: #090c9b;
+  width: 200px;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+  
+ 
+}
+
