@@ -6,7 +6,7 @@
   justify-content: space-around; */
   color: white;
   display: grid;
-  grid-template-columns: 1.5fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 0.7fr ;
 }
 
 .log-icon {
@@ -28,6 +28,7 @@
 .Links-footer {
   display: flex;
   align-items: center;
+  /* text-align: center; */
   justify-content: space-between;
   font-size: 25px;
 }

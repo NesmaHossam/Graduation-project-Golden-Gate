@@ -20,6 +20,14 @@ import CourseVideo from "./Components/CourseVideo/CourseVideo";
 import OverView from "./Components/OverView/OverView";
 import Comments from "./Components/Comments/Comments";
 import Rooms from "./Components/Rooms/Rooms";
+import Profile from "./Pages/Profile";
+import ProfilePicture from "./Components/ProfilePicture/ProfilePicture";
+import MyCourses from "./Components/MyCourses/MyCourses";
+import Password from "./Components/Password/Password";
+import EmailAddress from "./Components/EmailAddress/EmailAddress";
+import HelpAndSupport from "./Components/HelpAndSupport/HelpAndSupport";
+import Logout from "./Components/LogOut/Logout";
+
 function App() {
   return (
     <div>
@@ -33,7 +41,6 @@ function App() {
           {/* <Route path='/categories' element={<Categories/>} />
         <Route path='/aboutus' element={<Aboutus/>}/>
         <Route path="/cart" element={<Cart/>} /> */}
-
           <Route path="/login" exact element={<Login />} />
           <Route path="/signup" exact element={<Signup />} />
           <Route path="/reset" exact element={<ConfirmationPassword />} />
@@ -45,6 +52,13 @@ function App() {
           <Route path="/overView" exact element={<OverView />} />
           <Route path="/comments" exact element={<Comments />} />
           <Route path="/room" exact element={<Rooms />} />
+          <Route path="/profile" exact element={<Profile />} />
+          <Route path="/profilePic" exact element={<ProfilePicture />} />
+          <Route path="/myCourses" exact element={<MyCourses />} />
+          <Route path="/password" exact element={<Password />} />
+          <Route path="/emailAddress" exact element={<EmailAddress />} />
+          <Route path="/helpSupport" exact element={<HelpAndSupport />} />
+          <Route path="/logout" exact element={<Logout />} />
         </Routes>
 
         <MayShowFooter>

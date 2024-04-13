@@ -1,0 +1,45 @@
+.profile-pic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  /* position: relative; */
+}
+
+.profile-pic img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 30px;
+  position: relative;
+}
+
+.confirmation-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.confirmation-content button {
+  background-color: white;
+  color: #090c9b;
+  padding: 10px;
+  border: 2px solid #090c9b;
+  width: 100px;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.profile-pic svg {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 40%;
+  left: 12%;
+  cursor: pointer;
+}
