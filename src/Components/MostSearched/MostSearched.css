@@ -38,15 +38,15 @@
 }
 
 
-.mentor_rating_div {
+/*.mentor_rating_div {
   display: flex;
   align-items: center; 
 }
 
 .mentor_rating_div p {
   color: #808080;
-  margin-right: 20px;
-}
+  margin-right: 5px;
+}*/
 
 .App h1{
   font-size: 50px;

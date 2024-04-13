@@ -1,0 +1,101 @@
+.comments {
+    /*display: flex;
+    flex-direction:column;
+    width: 300%;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;*/
+
+    padding: 16px;
+    background-color: white;
+    width:100%;
+}
+.comments h1{
+    margin-left: 40px;
+}
+
+.commInfo{
+    border: 2px solid #ddd;
+    margin: 20px;
+    width: 95%;
+}
+    
+.userName {
+    display: inline-flex;
+    align-items: baseline;
+}
+
+   /* .commInfo img{
+      margin-top: 20px;
+      margin-left: 20px;
+      width: 30px;
+      border-radius: 40%;
+    
+}*/
+
+.VscAccount {
+    font-size: 30px;
+    margin-top: 15px;
+    margin-right: 10px; 
+    margin-left: 15px;
+}
+    
+.userName h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.userName h4 {
+    font-size: 15px; 
+    margin-top: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    color: #6C6C6C;
+}
+
+.commentBody p{
+    font-weight:bold;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+.comment-actions{
+    display: flex;
+    justify-content: end;
+    flex-wrap:wrap;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.comment-actions span{
+    display: inline-flex;
+    margin-left: 10px;
+    justify-content: baseline;
+}
+
+.bi-chat-left-fill ,.bi-hand-thumbs-up-fill,.bi-hand-thumbs-down-fill{
+    margin-right: 5px;
+}
+
+  .addcomment{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .addcomment input{
+    background-color: #d6d4d4;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 100px;
+    width: 25%;
+    cursor: pointer;
+    font-size: x-small;
+    margin-left: 10px;
+}
+.addcomment img{
+    margin-left: 20px;
+    border-radius: 100px;
+    width: 25px;
+}

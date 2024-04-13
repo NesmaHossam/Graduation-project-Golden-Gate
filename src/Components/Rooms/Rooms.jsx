@@ -4,9 +4,8 @@ import "./Rooms.css"
 
 const Rooms = () =>{
     return(
-        <div>
-
-        </div>
+        <div className="rooms"></div>
+       
     )
 }
 

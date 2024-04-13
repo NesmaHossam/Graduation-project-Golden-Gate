@@ -1,0 +1,92 @@
+.over-view {
+    padding: 16px;
+    background-color: white;
+    width:100%;
+
+  }
+  
+  .About-this-course{
+    border-bottom: 2px solid #ddd; 
+  }
+  .About-this-course h2{
+    margin-left: 20px;
+    padding-top: 20px;
+  }
+  .About-this-course p{
+    margin-left: 20px;
+  }
+  .by-the-num p{
+    margin-left: 20px;
+    padding-top: 20px;
+  }
+  .by-the-num ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .by-the-num li {
+    margin-bottom: 3px;
+  }
+  .by-the-num{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    border-bottom: 2px solid #ddd; 
+  }
+
+  .Features{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    border-bottom: 2px solid #ddd; 
+  }
+  .Features P{
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .Features ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .Features  li {
+    margin-bottom: 3px;
+  }
+  .Description{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    border-bottom: 2px solid #ddd; 
+  }
+  .Description P{
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .Description ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .Description  li {
+    margin-bottom: 3px;
+  }
+ 
+  .instructor-container {
+    display:inline-flex;
+    align-items:baseline;
+  }
+  
+  
+  .bi-person-circle {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+  }
+  .instructor-container p{
+    margin-left: 10px;
+    font-size: 20px;
+  }
+ 

@@ -8,11 +8,14 @@ function course({ title, mentor, rating, img, price, salePrice }) {
       <img src={pr1} alt="" className="w-100" />
       <div className="course-body">
        <Link to="/coursePlay"> <h4>{title}</h4></Link>
-        <div className="mentor_rating_div">
-         <p>{mentor}</p>
-         <StarRating defaultRating={rating} size={15} color="#000000" />
-         <span  style={{"color":"#808080"}}>({rating})</span>
-        </div>
+       <div className="mentor_rating_div">
+          <p>{mentor}</p>
+          <p style={{ display: "flex", alignItems: "center", color: "#808080"}}>
+          <span style={{ marginRight: "5px" }}>{rating}</span>
+            <StarRating defaultRating={rating} size={15} color="#000000"/>
+          </p>
+          </div>
+
         <div className="price">
           <span style={{ "text-decoration": "underline" , "color":"#090C9B","font-weight": "bold" }}> {salePrice ? salePrice : price} </span>
           {salePrice && (

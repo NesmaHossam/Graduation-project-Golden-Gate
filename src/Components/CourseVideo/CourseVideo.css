@@ -1,0 +1,42 @@
+.course-video {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: none; 
+  }
+  .align-items-center{
+    padding: 16px;
+    background-color: white;
+    border-bottom:2px solid #ddd ;
+  }
+  
+  .row {
+    margin-right: 0;
+    margin-left: 0; 
+  }
+  
+  .col-8 {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  
+  video {
+    width: 150%;
+  }
+
+  .col {
+    padding-left: 30px;
+    align-items:center;
+    flex-grow: 1; 
+  }
+  
+  h3 {
+    margin-bottom: 0;
+    color: grey;
+  }
+ 
+.active-tab {
+    color: black; /* Change this to the desired color */
+  }
+ 
+  
