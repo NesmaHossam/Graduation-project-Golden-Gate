@@ -21,7 +21,7 @@ cursor:default;
 .profile-content div {
   display: flex;
   /* justify-content: space-around; */
-
+  
   margin-top: 20px;
 }
 
@@ -31,5 +31,11 @@ cursor:default;
   margin-left: 50px;
 }
 
+.profile-content img{
+  margin-left: 58px;
+  margin-top: 8px;
+  display: inline-block; /* Display the image inline */
+  vertical-align: baseline; /* Align the image vertically with the text */
+}
 
 

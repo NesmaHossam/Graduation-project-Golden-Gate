@@ -11,7 +11,7 @@ function Arrow(props) {
   return (
     <div
       className={className}
-      style={{ ...style, display: "block", background: "black" }}
+      style={{ ...style, display: "block", background: "gray" }}
       onClick={onClick}
     />
   );
@@ -34,6 +34,7 @@ const MySlider = () => {
       title: <a href="your_python_bootcamp_link" class="bootcamp-link">  The Complete Python Bootcamp From Zero to Hero in Python </a>,
       mentor: "Mentor Name",
       rating: 3.5,
+      views: "(360,712)",
       price: "400 EGP",
       salePrice: "349 EGP",
       img: "../Assests/pr1.png",
@@ -44,6 +45,7 @@ const MySlider = () => {
       mentor: "Mentor Name",
       rating: 3.5,
       price: "400 EGP",
+      views: "(360,712)",
       salePrice: "349 EGP",
       img: "../Assests/pr1.png",
       id: 2,
@@ -53,6 +55,7 @@ const MySlider = () => {
       mentor: "Mentor Name",
       rating: 3.5,
       price: "400 EGP",
+      views: "(360,712)",
       salePrice: "349 EGP",
       img: "../Assests/pr1.png",
       id: 3,
@@ -62,6 +65,7 @@ const MySlider = () => {
       mentor: "Mentor Name",
       rating: 3.5,
       price:"400 EGP",
+      views: "(360,712)",
       salePrice: "349 EGP",
       img: "../Assests/pr1.png",
       id: 4,
@@ -71,6 +75,7 @@ const MySlider = () => {
       mentor: "Mentor Name",
       rating: 3.5,
       price: "400 EGP",
+      views: "(360,712)",
       salePrice: "349 EGP",
       img: "../Assests/pr1.png",
       id: 5,
@@ -80,6 +85,7 @@ const MySlider = () => {
       mentor: "Mentor Name" ,
       rating: 3.5,
       price: "400 EGP" ,
+      views: "(360,712)",
       salePrice: "349 EGP",
       img: "../Assests/pr1.png",
       id: 6,
@@ -94,6 +100,7 @@ const MySlider = () => {
             title={el.title}
             mentor={el.mentor}
             price={el.price}
+            views={el.views}
             salePrice={el.salePrice}
             img={el.img}
             rating={el.rating}

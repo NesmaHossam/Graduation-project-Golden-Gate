@@ -25,9 +25,14 @@
     font-size: 8px;
     color: #333;
   }
-  
 
-  
+.slick-arrow {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+
 .bootcamp-link {
   color: #000000;
   font-weight: bold;

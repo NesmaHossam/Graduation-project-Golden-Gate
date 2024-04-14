@@ -59,6 +59,9 @@
   text-align: center;
   margin: auto;
 }
+.confirmation-code-left a {
+  text-decoration: none;
+}
 
 .confirmation-code-right {
   display: flex;

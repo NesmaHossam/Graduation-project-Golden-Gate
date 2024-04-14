@@ -2,7 +2,7 @@ import StarRating from "../Context/StarRating"
 import pr1 from "../Components/Assests/pr1.png";
 import { Link } from "react-router-dom";
 
-function course({ title, mentor, rating, img, price, salePrice }) {
+function course({ title, mentor, rating, img, price, salePrice,views }) {
   return (
     <div className="course">
       <img src={pr1} alt="" className="w-100" />
@@ -12,9 +12,11 @@ function course({ title, mentor, rating, img, price, salePrice }) {
           <p>{mentor}</p>
           <p style={{ display: "flex", alignItems: "center", color: "#808080"}}>
           <span style={{ marginRight: "5px" }}>{rating}</span>
-            <StarRating defaultRating={rating} size={15} color="#000000"/>
+            <StarRating defaultRating={rating} size={15} color="#000000" />
+            <span style={{ display: "flex", alignItems: "baseline" , "color":"grey" }}> {views}</span>
           </p>
           </div>
+        
 
         <div className="price">
           <span style={{ "text-decoration": "underline" , "color":"#090C9B","font-weight": "bold" }}> {salePrice ? salePrice : price} </span>
