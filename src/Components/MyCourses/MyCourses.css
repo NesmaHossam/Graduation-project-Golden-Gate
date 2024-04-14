@@ -1,5 +1,5 @@
 .myCourses-container {
-  width: 800px;
+  width: 850px;
   border: 2px solid #090c9b;
   border-radius: 40px;
   height: 50vh;
@@ -29,7 +29,7 @@
   border: none;
   border-radius: 10px;
   margin-top: 20px;
-  
+  margin-left: 75%;
  
 }
 
