@@ -76,8 +76,9 @@ const Profile = () => {
             <img
               src={Arrow_icon}
               alt=""
+              
               onClick={() => handleTabClick("helpAndSupport")}
-              className={activeTab === "helpAndSupport" ? "active-tab" : ""}
+              className={activeTab === "helpAndSupport" ? "active-tab" : ""  }
               style={{ cursor: "pointer" }}
             />
           </div>

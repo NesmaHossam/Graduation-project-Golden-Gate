@@ -88,6 +88,9 @@
   }
   
   .signup-right img {
-    width: 700px;
-    height: 100vh;
+    /* width: 700px;
+    height: 100vh; */
+
+    height: 70vh;
+
   }

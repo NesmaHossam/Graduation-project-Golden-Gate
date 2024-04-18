@@ -1,6 +1,6 @@
 import React from "react";
 import "./Css/Login.css";
-import Photo1 from "../Components/Assests/Photo1.png";
+import Photo1 from "../Components/Assests/login.png";
 import face_icon from "../Components/Assests/face_icon.png";
 import google_icon from "../Components/Assests/google_icon.png";
 import { Link, link } from "react-router-dom";
