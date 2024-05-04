@@ -4,7 +4,7 @@ import "./CartItems.css"
 const CartItems =() =>{
     return (
         <div className="cartitems">
-
+hii
         </div>
     )
 }

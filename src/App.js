@@ -39,8 +39,8 @@ function App() {
         <Routes>
           <Route path="/" exact element={<Home />} />
           {/* <Route path='/categories' element={<Categories/>} />
-        <Route path='/aboutus' element={<Aboutus/>}/>
-        <Route path="/cart" element={<Cart/>} /> */}
+        <Route path='/aboutus' element={<Aboutus/>}/> */}
+        <Route path="/cart" element={<Cart/>} />
           <Route path="/login" exact element={<Login />} />
           <Route path="/signup" exact element={<Signup />} />
           <Route path="/reset" exact element={<ConfirmationPassword />} />
