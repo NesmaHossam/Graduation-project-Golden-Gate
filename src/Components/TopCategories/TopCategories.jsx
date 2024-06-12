@@ -3,7 +3,7 @@ import "./TopCategories.css";
 import Design_img from "../Assests/Design_img.png";
 import Development_img from "../Assests/Development-img.png";
 import Marketing_img from "../Assests/Marketing_img.png";
-import Business_img from "../Assests/Business_img.png";
+import Business_img from "../Assests/Business.png";
 import IT_img from "../Assests/IT_img.png";
 import Photography_img from "../Assests/Photography_img.png";
 
