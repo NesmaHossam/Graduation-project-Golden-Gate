@@ -13,10 +13,13 @@ const Navbar = () => {
 
   //   api
   // const [menu, setMenu] = useState("home");
+  
 
   return (
     <div className="navbar">
+   
       <div className="nav-logo">
+      
         <Link to="/profile">
           <img src={Logo} alt="" />
         </Link>
@@ -53,8 +56,12 @@ const Navbar = () => {
           <button className="signup-btn">SIGN UP</button>
         </Link>
       </div>
+    
     </div>
   );
 };
 
 export default Navbar;
+
+
+
